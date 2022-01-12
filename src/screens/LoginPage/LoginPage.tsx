@@ -82,8 +82,26 @@ function LoginPage(): JSX.Element {
           },
         });
         console.log(data);
+<<<<<<< HEAD
         window.alert('Successfully Registered. Please Login In to Continue...');
         window.location.reload();
+=======
+        toast.success('User created successfully', {
+          position: 'top-right',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+        });
+        setSignFormState({
+          signfirstName: '',
+          signlastName: '',
+          signEmail: '',
+          signPassword: '',
+          cPassword: '',
+          signuserType: '',
+        });
+>>>>>>> 084e9e52ba5c882e695d22c979bae9e7ffbe85a3
       } else {
         alert('Write USERTYPE correctly OR Check Password');
         window.location.reload();

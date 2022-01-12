@@ -28,7 +28,20 @@ function EventListCard(props: EventListCardProps): JSX.Element {
           },
         });
         console.log(data);
+<<<<<<< HEAD
         window.location.reload();
+=======
+        toast.success('Event deleted successfully', {
+          position: 'top-right',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+        });
+        // setTimeout(() => {
+        //   window.location.reload();
+        // }, 5000);
+>>>>>>> 084e9e52ba5c882e695d22c979bae9e7ffbe85a3
       } catch (error) {
         window.alert(error);
       }

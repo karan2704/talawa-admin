@@ -2,6 +2,10 @@ import React from 'react';
 import styles from './OrgPostCard.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+<<<<<<< HEAD
+=======
+import { ToastContainer, toast } from 'react-toastify';
+>>>>>>> 084e9e52ba5c882e695d22c979bae9e7ffbe85a3
 import { DELETE_POST_MUTATION } from 'GraphQl/Mutations/mutations';
 import { useMutation } from '@apollo/client';
 
@@ -37,6 +41,10 @@ function OrgPostCard(props: OrgPostCardProps): JSX.Element {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+      <ToastContainer />
+>>>>>>> 084e9e52ba5c882e695d22c979bae9e7ffbe85a3
       <Row>
         <div className={styles.cards}>
           <div className={styles.dispflex}>

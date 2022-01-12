@@ -29,9 +29,24 @@
   "plugins": ["react", "@typescript-eslint", "react-hooks", "jest"],
   "rules": {
     "react/destructuring-assignment": ["warn", "always"],
+<<<<<<< HEAD
     "react/no-multi-comp": ["error", { "ignoreStateless": false }],
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
 
+=======
+    "react/no-multi-comp": [
+      "error",
+      {
+        "ignoreStateless": false
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".tsx"]
+      }
+    ],
+>>>>>>> 084e9e52ba5c882e695d22c979bae9e7ffbe85a3
     // Ensures that components are always written in PascalCase
     "react/jsx-pascal-case": [
       "error",
